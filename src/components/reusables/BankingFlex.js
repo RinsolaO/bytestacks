@@ -227,7 +227,7 @@ const BankingFlex = (props) => {
         </motion.div>
 
         <motion.div className="flex-right-content" variants={imgVariants}>
-          <img src={props.flexImage} alt="" />
+          <img src={props.flexImage} alt="Image" />
         </motion.div>
       </div>
     </motion.div>
