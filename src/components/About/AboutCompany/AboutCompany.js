@@ -10,7 +10,10 @@ const AboutCompany = () => {
         subtitle="Providing your business with
             infrastructure solutions that
             powers last mile payments."
-        details="With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products. With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products. With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products."
+        details="Bytestacks Technology Limited provides agency banking platform which provides 
+        multidimensional solution to provide simplified access to financial services for Nigeria's  most population who do not have easy access to the traditional  banking system while encouraging entrepreneurship as a pathway to economic empowerment, and also this is  an expression of our commitment to reduce the number of people who are unbanked and under-banked in Nigeria.
+        "
+        detailsMore="Bytestacks Technology Limited has experience and expertise to build custom web and  mobile solutions. IT consulting, full-cycle software development and UX/UI design is what we do excellently."
         percentTitle="Agency Banking"
         percent="90%"
         percentTitle1="Digital Banking"
@@ -19,6 +22,7 @@ const AboutCompany = () => {
         percent2="55%"
         flexImage={AboutImg}
         showBanking="show-banking"
+        showText="show-text"
       />
     </div>
   );

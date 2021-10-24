@@ -53,7 +53,7 @@
   column-gap: 2rem;
   width: 85%;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
   color: white;
   padding-bottom: 4rem;
 }
@@ -65,7 +65,7 @@
   row-gap: 2rem;
 }
 .home-title {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 2.4rem;
   width: 90%;
   font-style: "77 bold";
@@ -77,8 +77,11 @@
 }
 
 .home-details {
-  width: 65%;
-  line-height: 2rem;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  line-height: 1.7rem;
   font-size: 1.1rem;
   font-style: "65 Md";
 }

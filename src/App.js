@@ -7,6 +7,7 @@ import AgencyBanking from "./screens/AgencyBanking";
 import DigitalBanking from "./screens/DigitalBanking";
 import CoopBanking from "./screens/CoopBanking";
 import ScrollToTop from "./components/reusables/ScrollToTop";
+import ScheduleADemo from "./screens/ScheduleADemo";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route exact path="/CooperativeBanking">
           <CoopBanking />
+        </Route>
+        <Route exact path="/ScheduleDemo">
+          <ScheduleADemo />
         </Route>
       </Switch>
     </div>

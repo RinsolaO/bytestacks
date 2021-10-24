@@ -22,13 +22,14 @@ const AboutHeader = () => {
         <AboutCard
           img={DigitalBk}
           title="Digital Banking"
-          details="Our top notch Agency Banking System allows you to focus on the business side of things while it takes complete care of the technology side of things."
+          details="We offer innovative digital financial services to your retail and business customers-all on the same powerful, API-first platform-so your customers can bank conviniently. 
+          "
         />
         <AboutCard
           img={CoopBk}
           title="Coorperative
           Banking"
-          details="Our top notch Agency Banking System allows you to focus on the business side of things while it takes complete care of the technology side of things."
+          details="Our cooperative banking service, provides your company with dependable financial solutions that help you reach your goals.."
         />
       </div>
     </div>

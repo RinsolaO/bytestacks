@@ -100,7 +100,7 @@ const tPercentVariants = {
 };
 const BankingFlex = (props) => {
   const [ref, inView] = useInView({
-    threshold: 0.3,
+    threshold: 0.4,
     triggerOnce: true,
   });
 
@@ -123,9 +123,39 @@ const BankingFlex = (props) => {
           <motion.div variants={childVariants} className="flex-subtitle">
             {props.subtitle}
           </motion.div>
-          <motion.div variants={childVariants} className="flex-details">
+          <motion.div
+            variants={childVariants}
+            className={`flex-details ${props.showText}`}
+          >
             {props.details}
           </motion.div>
+          <motion.div
+            variants={childVariants}
+            className={`flex-details ${props.showText}`}
+          >
+            {props.detailsMore}
+          </motion.div>
+          <motion.div
+            variants={childVariants}
+            className={`flex-details ${props.showText}`}
+          >
+            {props.detailsMini}
+          </motion.div>
+
+          <motion.ul
+            variants={childVariantsBottom}
+            className={`banking-list ${props.showList}`}
+          >
+            <li>{props.itema}</li>
+            <li>{props.itemb}</li>
+            <li>{props.itemc}</li>
+            <li>{props.itemd}</li>
+            <li>{props.iteme}</li>
+            <li>{props.itemf}</li>
+            <li>{props.itemg}</li>
+            <li>{props.itemh}</li>
+            <li>{props.itemi}</li>
+          </motion.ul>
 
           <motion.div
             variants={childVariantsBottom}
@@ -176,10 +206,22 @@ const BankingFlex = (props) => {
               variants={childVariantsBottom}
               className="trust-card-container"
             >
-              <div className="mini-trust-card">{props.trust}</div>
-              <div className="mini-trust-card">{props.trust1}</div>
-              <div className="mini-trust-card">{props.trust2}</div>
-              <div className="mini-trust-card">{props.trust3}</div>
+              <div className="mini-trust-card">
+                {props.trust}
+                <span className="mini-trust-details">{props.miniTrust}</span>
+              </div>
+              <div className="mini-trust-card">
+                {props.trust1}
+                <span className="mini-trust-details">{props.miniTrust1}</span>
+              </div>
+              <div className="mini-trust-card">
+                {props.trust2}
+                <span className="mini-trust-details">{props.miniTrust2}</span>
+              </div>
+              <div className="mini-trust-card">
+                {props.trust3}
+                <span className="mini-trust-details">{props.miniTrust3}</span>
+              </div>
             </motion.div>
           </motion.div>
         </motion.div>

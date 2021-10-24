@@ -6,15 +6,18 @@ const AboutTrust = () => {
   return (
     <div>
       <BankingFlex
-        title="WHY TRUST US?"
+        title="What We Power"
         subtitle="Achieve digital transformation for your business services"
-        details="With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products."
         trust="Collection"
         trust1="Aggregation"
         trust2="Reconciliation"
         trust3="Data Analysis"
         flexImage={AboutImg}
         showTrust="show-trust"
+        miniTrust="Allows you track your Agent network and their revenue collections on field for proper accountability. "
+        miniTrust1="Allows you manage and organize the Agents Journey from the moment they on-board to the moment they drop-out. "
+        miniTrust2="Allows you to monitor transactions and reconcile your accounts with partners’ remittances. With this all boxes are checked and there are no errors."
+        miniTrust3="Allows you view real time analytics of every transaction as it’s happening and increases business intelligence."
       />
     </div>
   );

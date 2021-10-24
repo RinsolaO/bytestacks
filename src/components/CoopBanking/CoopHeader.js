@@ -15,8 +15,10 @@ const CoopHeader = () => {
         subtitle="Providing your business with
             infrastructure solutions that
             powers last mile payments."
-        details="With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products. With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products. With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products."
+        details="With our cooperative banking service, we’ll provide your company with dependable 
+        financial solutions that help you reach your goals."
         flexImage={AboutImg}
+        showText="show-text"
       />
     </div>
   );

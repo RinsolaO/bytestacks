@@ -34,9 +34,10 @@
 }
 
 .contact-subtitle {
-  color: #4b4c70;
+  color: var(--blue-text-color);
   font-weight: 600;
   font-size: 2.375rem;
+  line-height: 3rem;
 }
 
 .mini-flex {
@@ -130,5 +131,9 @@
 @media (max-width: 426px) {
   .contact-form .btn {
     width: 60%;
+  }
+  .contact-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
 }

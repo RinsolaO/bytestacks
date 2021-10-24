@@ -58,9 +58,9 @@ const Header = (props) => {
             </motion.div>
           </motion.li>
           <li>
-            <Link to="/" activeClassName="">
+            <NavLink to="/ScheduleDemo" activeClassName="active">
               Schedule a Demo
-            </Link>
+            </NavLink>
           </li>
           <li>
             <NavLink to="/Contact" exactTrue={true} activeClassName="active">

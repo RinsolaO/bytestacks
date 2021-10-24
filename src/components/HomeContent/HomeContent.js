@@ -72,11 +72,23 @@ const HomeContent = () => {
           <motion.h2 variants={childVariants} className="home-title">
             Powering last mile transactions in <span>Africa! </span>{" "}
           </motion.h2>
-          <motion.p variants={childVariants} className="home-details">
-            We have the experience and the expertise to build your custom web
-            and mobile solutions. IT consulting, full-cycle software development
-            and UX/UI design are what we do.
-          </motion.p>
+          <div className="home-details">
+            <motion.p variants={childVariants}>
+              We’re a type of branchless banking that allows the traditional
+              banks to extend their network of branches and services in a
+              cost-efficient manner through authorized agents. Agency banking is
+              gaining popularity due to various reasons like product
+              availability, risk management, improvement in financial inclusion,
+              and many more...
+            </motion.p>
+            <motion.p variants={childVariants}>
+              Bytestacks Technology limited provides you with everything your
+              company/business needs; from top notch custom web and mobile
+              solutions, IT consulting, full-cycle software development and
+              UX/UI design.
+            </motion.p>
+          </div>
+
           <motion.div variants={childVariants} className="banking-type">
             <HomeMiniCard
               linkTo="/AgencyBanking"
@@ -84,12 +96,12 @@ const HomeContent = () => {
               title="Agency Banking"
             />
             <HomeMiniCard
-              linkTo="/DigitalBanking"
+              linkTo="/Analytics"
               img={Digital}
               title="Digital Banking"
             />
             <HomeMiniCard
-              linkTo="/CooperativeBanking"
+              linkTo="/SoftwareSolutions"
               img={Coop}
               title="Coop Banking"
             />

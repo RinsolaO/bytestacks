@@ -15,7 +15,15 @@ const DigitalHeader = () => {
         subtitle="Providing your business with
             infrastructure solutions that
             powers last mile payments."
-        details="With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products. With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products. With more than 12 years of experience in custom software development, we have a rich history of cooperating with both small startups and large enterprises. We not only provide our clients with a wide range of software development services but also offer our own products."
+        details="We  make  it simple to  offer innovative digital  financial  services to  your  retail  and
+        business customers—all on the same powerful, API-first platform—so your customers can 
+        bank how, when and where they want. 
+        We monitor everything that is happening in operations in real-time. With Bytestacks, you 
+        can follow every action as an agent and track key metrics. Get an accurate view as an  
+        Agent and  performance  by  checking  the  most  important  KPIs.  The  Data Dashboard  
+        available  provides  you  powerful  insights  and  useful  information  to  support your 
+        decisions."
+        showText="show-text"
         flexImage={AboutImg}
       />
     </div>

@@ -118,18 +118,18 @@ ul {
 /* Home */
 /* Container */
 .container {
-  height: 620px;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   z-index: -2;
+  height: 500px;
 }
 
 /* H5 */
 
 .container h5 {
   display: flex;
-  height: 75%;
+  height: 60%;
   justify-content: center;
   align-items: center;
   font-weight: 600;
@@ -263,9 +263,29 @@ a button.orange-btn:hover {
 
 .flex-details {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 100;
   color: var(--grey-text-color);
   line-height: 1.2rem;
+  display: none;
+}
+
+/* Agency List */
+
+.banking-list {
+  list-style: initial;
+  color: var(--blue-text-color);
+  font-weight: 100;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1rem;
+  margin-top: -1rem;
+  display: none;
+}
+.show-list,
+.show-text {
+  display: initial;
 }
 
 .banking-percent {
@@ -366,13 +386,30 @@ a button.orange-btn:hover {
   width: 220px;
   display: flex;
   align-items: center;
-  padding-left: 1rem;
   border-left: 2px solid var(--lightblue-text-color);
   height: 50px;
+  overflow: hidden;
   border-radius: 6px;
   color: var(--blue-text-color);
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.mini-trust-details {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.mini-trust-card:hover {
+  height: 170px;
+  box-shadow: 0px 1px 5px 0px var(--lightblue-text-color);
 }
 
 @media (max-width: 1200px) {
@@ -396,8 +433,10 @@ a button.orange-btn:hover {
 @media (max-width: 785px) {
   .mini-trust-card {
     width: 210px;
+    height: 170px;
   }
 }
+
 @media (max-width: 426px) {
   .mini-trust-card {
     width: 220px;
