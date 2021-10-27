@@ -1,6 +1,6 @@
 import Header from "../../Header/Header";
 import BankingFlex from "../../reusables/BankingFlex";
-import AboutImg from "../../../img/about-company.svg";
+import AboutImg from "../../../img/agency.png";
 import { motion } from "framer-motion";
 
 import "./AgencyHeader.css";

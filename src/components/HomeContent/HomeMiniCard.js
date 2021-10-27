@@ -10,7 +10,7 @@ const cardVariants = {
     // opacity: 1,
   },
   hoverAnimation: {
-    y: -3,
+    y: -5,
     transition: {
       duration: 0.3,
       type: "tween",
@@ -28,9 +28,11 @@ const HomeMiniCard = (props) => {
       variants={cardVariants}
       className="banking-card"
     >
-      <Link to={props.linkTo}>
+      <Link to={props.linkTo} className="mini-card-container-hover">
         <div className="mini-card-container"></div>
-        <div className="mini-card-details">
+        <div
+          className={`mini-card-details ${props.leftClass} ${props.middleClass} ${props.rightClass}`}
+        >
           <img src={props.img} alt="" />
           <span> {props.title} </span>
         </div>

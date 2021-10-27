@@ -179,6 +179,13 @@ ul {
   height: 100vh;
 }
 
+@media (max-width: 550px) {
+  .home-container {
+    background-image: none;
+    background-color: #2368ac;
+  }
+}
+
 /* Reusables */
 
 /* button */

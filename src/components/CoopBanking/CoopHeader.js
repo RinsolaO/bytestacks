@@ -1,5 +1,5 @@
 import "./CoopHeader.css";
-import AboutImg from "../../img/about-company.svg";
+import AboutImg from "../../img/coop.png";
 import BankingFlex from "../reusables/BankingFlex";
 import Header from "../Header/Header";
 
@@ -8,10 +8,10 @@ const CoopHeader = () => {
     <div>
       <div className="coop-container container">
         <Header activeClass="active" />
-        <h5>Cooperative Banking</h5>
+        <h5>Software Solutions</h5>
       </div>
       <BankingFlex
-        title=" COOPERATIVE BANKING"
+        title="SOFTWARE SOLUTIONS"
         subtitle="Providing your business with
             infrastructure solutions that
             powers last mile payments."

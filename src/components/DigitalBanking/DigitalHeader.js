@@ -1,5 +1,5 @@
 import "./DigitalHeader.css";
-import AboutImg from "../../img/about-company.svg";
+import AboutImg from "../../img/digital.png";
 import BankingFlex from "../reusables/BankingFlex";
 import Header from "../Header/Header";
 
@@ -8,10 +8,10 @@ const DigitalHeader = () => {
     <div>
       <div className="digital-container container">
         <Header activeClass="active" />
-        <h5>Digital Banking</h5>
+        <h5>Analytics</h5>
       </div>
       <BankingFlex
-        title=" DIGITAL BANKING"
+        title="ANALYTICS"
         subtitle="Providing your business with
             infrastructure solutions that
             powers last mile payments."

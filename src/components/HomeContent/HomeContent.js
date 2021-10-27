@@ -92,18 +92,21 @@ const HomeContent = () => {
           <motion.div variants={childVariants} className="banking-type">
             <HomeMiniCard
               linkTo="/AgencyBanking"
+              leftClass="leftdiv"
               img={Agency}
               title="Agency Banking"
             />
             <HomeMiniCard
               linkTo="/Analytics"
               img={Digital}
-              title="Digital Banking"
+              title="Analytics"
+              leftClass="middlediv"
             />
             <HomeMiniCard
               linkTo="/SoftwareSolutions"
               img={Coop}
-              title="Coop Banking"
+              title="Software Solutions"
+              leftClass="rightdiv"
             />
           </motion.div>
 

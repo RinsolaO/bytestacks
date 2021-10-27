@@ -49,10 +49,10 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/DigitalBanking">Digital Banking </Link>
+                  <Link to="/Analytics">Digital Banking </Link>
                 </li>
                 <li>
-                  <Link to="/CooperativeBanking">Cooperative Banking</Link>
+                  <Link to="/SoftwareSolutions">Cooperative Banking</Link>
                 </li>
               </ul>
             </motion.div>

@@ -27,10 +27,10 @@ function App() {
         <Route exact path="/AgencyBanking">
           <AgencyBanking />
         </Route>
-        <Route exact path="/DigitalBanking">
+        <Route exact path="/Analytics">
           <DigitalBanking />
         </Route>
-        <Route exact path="/CooperativeBanking">
+        <Route exact path="/SoftwareSolutions">
           <CoopBanking />
         </Route>
         <Route exact path="/ScheduleDemo">

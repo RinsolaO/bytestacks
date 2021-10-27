@@ -1,5 +1,5 @@
 import "../../Contact/ContactContent/ContactContent.css";
-import ScheduleImage from "../../../img/schedule.svg";
+import ScheduleImage from "../../../img/schedule.png";
 import Btn from "../../reusables/Btn";
 
 const ScheduleContent = () => {

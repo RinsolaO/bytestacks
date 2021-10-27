@@ -2,16 +2,7 @@
 
 .banking-card {
   position: relative;
-  width: 30%;
-}
-
-.mini-card-container:hover {
-  background: linear-gradient(
-    90deg,
-    var(--orange-color) 20%,
-    var(--blue-text-color) 75%
-  );
-  /* box-shadow: 0px 7px 3px 0px var(--blue-text-color); */
+  width: 35%;
 }
 .mini-card-container {
   padding: 1rem 3rem;
@@ -36,7 +27,18 @@
   column-gap: 0.3rem;
   position: absolute;
   top: 0.6rem;
+}
+
+.mini-card-details.leftdiv {
   left: 1.6rem;
+}
+
+.mini-card-details.middlediv {
+  left: 3rem;
+}
+
+.mini-card-details.rightdiv {
+  left: 0.9rem;
 }
 
 .banking-type {
